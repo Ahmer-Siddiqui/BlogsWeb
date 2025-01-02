@@ -5,8 +5,12 @@ if(!sessionStorage.getItem("userData")){
 const user = JSON.parse(sessionStorage.getItem("userData"));
 if(user){
     document.getElementById("userImage").src = user.profilePicture
-    document.getElementById("userName").innerText = user.firstName + user.lastName
+    document.getElementById("userName").innerText = user.firstName +" "+ user.lastName
     document.getElementById("userIntro").innerText = user.userIntro
 }
 
 
+const logout = ()=>{
+    sessionStorage.clear()
+    location.href = "/pages/login.html"
+}

@@ -1,13 +1,6 @@
-// const getLogin = ()=>{
-//     if(location.pathname == "/"){
-//         console.log(location.pathname);
-//         // location.href == "/blog.html"
-//     }
-// }
-// getLogin()
 
 const userData = async (email,password) => {
-  const response = await fetch("http://localhost:8000/api/user/login", {
+  const response = await fetch("https://blogs-web-backend.vercel.app/api/user/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

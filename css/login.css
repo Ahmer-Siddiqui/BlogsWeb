@@ -81,11 +81,9 @@ button:hover {
 .navbar {
   width: 100vw;
   height: 15vh;
-  border: 1px solid red;
   background-color: white;
   display: flex;
   justify-content: center;
-  background-color: transparent;
   flex-wrap: wrap;
   top: 0;
   border-radius: 0 0 20px 20px;

@@ -9,3 +9,7 @@ if(user){
     document.getElementById("email").innerText = user.email
 }
 
+const logout = ()=>{
+    sessionStorage.clear()
+    location.href = "/pages/login.html"
+}
