@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 1.9vw;
+    font-family: "Roboto", serif;
+    
+}
+body {
+    width: 100%;
+    margin: auto;
+    font-size: 1.5vw; /* Scalable font size for responsiveness */
+    background-color:rgb(215, 215, 215);
+    font-family: "Roboto", serif;
+}
+/* Navbar */
+.navbar {
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    flex-wrap: wrap;
+    top: 0;
+    border-radius: 0 0 20px 20px;
+  }
+  .logo {
+    width: 20%;
+    height: 100%;
+  }
+  
+  .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  ul {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    font-size: 1.3rem;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    background-color: rgb(199, 197, 197);
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: black;
+    font-size: 1.7vw;
+    border: solid rgb(199, 197, 197) 2px;
+  }
+  
+
+
+.container{
+    width:80%;
+    height:100%;
+    margin:auto;
+    position:relative;   
+
+    /* display: flex; */
+}
+.blogimg{
+
+    width:100%; 
+    height:100%;
+   
+}
+.blogp{
+    text-align: center;
+    color: white;
+    font-size: 2.5vw; /* Scales font size based on viewport width */
+    position: absolute;
+    bottom: 86%;
+    left: 12%;
+    font-weight: 900;
+}
+.blog {
+    color: white;
+    font-size: 7vw; 
+    position: absolute;
+    bottom: 88%;
+    left: 37%;
+    font-weight:600;
+    word-spacing: 30px;
+}
+.heading{
+    margin-top: 10%;
+    border:ridge white 15px;
+    text-align: center;
+    font-size: 4vw; 
+    background-color:white;
+    padding:8px;
+    font-weight: 1000;
+    color:black;
+}
+.container1{
+    width:100%;
+    height:100%;
+    margin:auto;
+    display: flex;
+    background-color:white;
+}
+.secimg{
+    width:100%;
+    height:100%;  
+}
+.left{
+    width:50%;
+    height:100%; 
+}
+.right{
+    text-align: center;
+    width:50%;
+    height:100%; 
+    padding-top: 10px;
+   
+}
+.container2{
+    width:100%;
+    height:100%;
+    margin:auto;
+    display: flex;
+    background-color:white;
+}
+.container3{
+    width:100%;
+    height:100%;
+    margin:auto;
+    display: flex;
+    background-color:white;
+}
+.container4{
+    width:100%;
+    height:100%;
+    margin:auto;
+    display: flex;
+    background-color:white;
+}
+
+.container5{
+    width:100%;
+    height:100%;
+    margin:auto;
+    display: flex;
+    background-color:white;
+}

@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  font-size: 1rem; /* Base font size for scalability */
+  background-color: rgb(231, 228, 228);
+  font-family: "Roboto", serif;
+  line-height: 1.6; /* Improves readability */
+}
+
+.container {
+  width: 90%; /* Reduced width for better responsiveness */
+  margin: auto;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 5vh; /* Scales with viewport height */
+}
+
+img {
+  width: 100%;
+  height: 60%; /* Maintains aspect ratio for images */
+}
+
+.para1 {
+  font-size: 6vw; /* Combines viewport width with a fixed size for better scaling */
+  font-weight: bold;
+  position: absolute;
+  bottom: 65%; /* Use percentages to adapt the vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for perfect horizontal centering */
+  color: white;
+  text-align: center;
+  line-height: 1.2; /* Adjusts spacing for better readability */
+  width: 80%; /* Optional: Restrict width for smaller devices naturally */
+}
+
+.container1 {
+  padding: 3vw; /* Scales padding with viewport width */
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 2vw; /* Adds space between elements */
+}
+
+.one,
+.two,
+.three {
+  flex: 1 1 30%; /* Ensures equal spacing and wraps when needed */
+  text-align: center;
+}
+
+.p {
+  font-size: 1rem; /* Scales with base font size */
+}
+
+.four {
+  margin: auto;
+  max-width: 100%; /* Limits width for responsiveness */
+  background-color: white;
+  text-align: center;
+  padding: 3rem; /* Scales with font size */
+}
+
+/* Navbar */
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  flex-wrap: wrap;
+  top: 0;
+  border-radius: 0 0 20px 20px;
+}
+.logo {
+  width: 20%;
+  height: 100%;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+ul {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  font-size: 1.3rem;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(199, 197, 197);
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: black;
+  font-size: 1.7vw;
+  border: solid rgb(199, 197, 197) 2px;
+}

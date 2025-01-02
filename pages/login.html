@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <header
+      class="navbar"
+      data-aos="fade-down"
+      data-aos-offset="500"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
+      <div class="logo">
+        <img src="../asset/img/blog.png" alt="blog" />
+      </div>
+    </header>
+    <div class="login-container">
+      <form id="login-form" method="post">
+        <h2>Login</h2>
+
+        <!-- Username Input -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+
+        <!-- Password Input -->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <!-- Login Button -->
+        <button type="submit" id="login-button">Login</button>
+
+        <!-- Error Message (hidden by default) -->
+        <p id="error-message" class="error-message" style="display: none">
+          Invalid username or password.
+        </p>
+      </form>
+    </div>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>

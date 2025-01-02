@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <header
+      class="navbar"
+      data-aos="fade-down"
+      data-aos-offset="500"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
+      <div class="logo">
+        <img src="./asset/img/blog.png" alt="blog" />
+      </div>
+
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contact.html">Contact Us</a></li>
+        <li><button style="border: none;">Logout</button></li>
+      </ul>
+    </header>
+
+    <div
+      class="container2"
+      data-aos="fade-right"
+      data-aos-offset="500"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
+      <video
+        class="video1"
+        src="/asset/video/video.mp4"
+        autoplay
+        loop
+        muted
+        plays-inline
+      ></video>
+
+      <p class="heading1">Your Next Favorite</p>
+      <p class="heading2">Blog Starts Here</p>
+      <p class="para1">Bring your vision to life with the website builder</p>
+      <p>that gives you the tools you need to succeed.</p>
+    </div>
+    <div class="container3">
+      <div class="con3left">
+        <img id="userImage" src="./one.jpg" alt="userImage" />
+      </div>
+      <div class="con3right">
+        <h1 id="userName" class="cont3head1">Ayesha Iqbal</h1>
+        <p id="userIntro">
+          Lorem ipsum dolor sit amet amet consectetur adipisicing elit. Rerum
+          voluptates maiores, necessitatibus rem illum exercitationem, explicabo
+          non quae, corrupti atque reprehenderit dolorem ipsam quia aliquid?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis
+          dicta expedita iusto recusandae cum beatae libero minima dolor ut
+          inventore fuga unde soluta esse officiis, iure placeat exercitationem.
+        </p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
